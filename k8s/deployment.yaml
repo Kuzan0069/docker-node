@@ -33,3 +33,4 @@ spec:
       nodePort: 30080     
 #use port-forwarding to make it accessible from the net
 #kubectl port-forward service/node-app-service 8080:80
+#kubectl scale deployment node-app-deployment --replicas=0 (to scale number of pods to be run)
