@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: node-app:latest  # using your local image name
-          imagePullPolicy: Never
+          image: kuzan0069/practiceproject-webapp:latest  # get image from dockerhub
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000  # Node.js app runs on port 3000
 ---
